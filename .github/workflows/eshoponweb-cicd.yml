@@ -5,10 +5,10 @@ on: [push, workflow_dispatch]
 
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
-  RESOURCE-GROUP: Academy2023-MarkusKousa-RG
-  LOCATION: westeurope
+  RESOURCE-GROUP: rg-az400-eshoponweb-markuskousa
+  LOCATION: northeurope
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
-  SUBSCRIPTION-ID: ae6cbacb-2eac-42cc-978e-516b8ef7628d
+  SUBSCRIPTION-ID: 5d24ef35-8e66-4180-a645-2dc81457041f
   WEBAPP-NAME: az400-webapp-markuskousa
 
 
